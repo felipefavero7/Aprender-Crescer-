@@ -1,0 +1,33 @@
+
+[
+  
+    {
+        "text_card_conteudo1":"ff",
+        "text_card_conteudo2":"f",
+        "text_card_conteudo3":"f",
+        "text_card_conteudo4":"",
+        "buttonSubscribe": "Inscricoes"
+    
+      },
+
+      {
+        "text_card": ["" , "", ""]
+      },
+
+      {
+        "videoURl1":"",
+        "videoURl2":""
+      },
+  
+  {
+    "carouselImgUrl1": ["url_da_imagem_1.jpg", "url_da_imagem_2"]
+  },
+
+ 
+  {
+    "authorName": ["João da Silva"],
+    "authorAvatar": ["url_do_avatar1.jpg"],
+    "comment": ["Este é o comentário de João."]
+  }
+   
+]
