@@ -12,7 +12,7 @@ export type CommentProps = {
 function Comment({ comments }: CommentProps) {
   return (
     <>
-      <section className="flex p-20 justify-center">
+      <section className="flex p-20 justify-center mt-12">
        
         <div className="bg-red-600 h-96 w-20 hidden sm:block"></div>
         <div className="bg-orange-500 h-96 w-20 hidden sm:block"></div>

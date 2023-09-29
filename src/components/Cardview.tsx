@@ -1,22 +1,20 @@
-import cardsProps from '../components.json';
+import cardsProps from './components.json';
 import CardConteudo from './cardConteudo';
 
 const Cardview = () => {
+  // Suponha que você queira renderizar apenas o primeiro item de cardsProps
+  const { text_card_conteudo1, text_card_conteudo2, text_card_conteudo3, buttonSubscribe } = cardsProps[0] || {};
+
   return (
     <div className="flex flex-col flex-wrap justify-center gap-8 mt-8 items-center lg:flex-row">
-      {cardsProps.map(({ text_card_conteudo1, text_card_conteudo2, text_card_conteudo3, text_card_conteudo4, buttonSubscribe }) => (
-        
-        <div className='custom-card'>
-        <CardConteudo 
-          text_card_conteudo1={text_card_conteudo1 || ""}
-          text_card_conteudo2={text_card_conteudo2 || ""}
-          text_card_conteudo3={text_card_conteudo3 || ""}
-          text_card_conteudo4={text_card_conteudo4 || ""}
-          buttonSubscribe={buttonSubscribe || ""}
+      <div className="">
+        <CardConteudo
+          text_card_conteudo1={text_card_conteudo1 || ''}
+          text_card_conteudo2={text_card_conteudo2 || ''}
+          text_card_conteudo3={text_card_conteudo3 || ''}
+          buttonSubscribe={buttonSubscribe || ''}
         />
-
-</div>
-      ))}
+      </div>
     </div>
   );
 };

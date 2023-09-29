@@ -1,9 +1,10 @@
 import inicioSite from './components/images/inicio-site.png';
 import Cards from './components/Card';
-import Carousels from './components/carouselHeader';
+import Carousels from './components/CarouselImagens/carouselHeader';
 import Videos from './components/Videos';
 import Comment from './components/Comment';
 import Cardview from './components/Cardview'; // Certifique-se de fornecer o caminho correto
+import Carouselview from './components/CarouselImagens/Carouselview';
 
 function App() {
   return (
@@ -16,13 +17,9 @@ function App() {
             </div>
           </section>
 
-          <Carousels
-            imageUrls={[
-              'https://img.freepik.com/fotos-premium/resumo-tecnologia-moderna-de-programacao-de-tela-de-codigo-do-desenvolvedor-linguagem-de-programacao-c-de-script-de-computador_505353-91.jpg',
-              'https://profdanielbrandao.files.wordpress.com/2019/08/microsoft-bosque-programming-language-1.jpg',
-              'https://img.freepik.com/fotos-premium/resumo-tecnologia-moderna-de-desenvolvedor-de-tela-de-codigo-de-programacao-linguagem-de-programacao-c-de-script-de-computador-e-fundo-de-tecnologia-de-software_505353-445.jpg',
-            ]}
-          />
+          <div>
+            <Carouselview/>
+          </div>
 
           <section className="flex justify-evenly flex-wrap gap-8 p-20 break-normal">
             <Cards text_card="+5 Cidades" />

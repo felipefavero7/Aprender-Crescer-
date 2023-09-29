@@ -1,0 +1,27 @@
+[
+  {
+    "text_card_conteudo1": "O Projeto Aprender & Crescer foi criado pela Sudotec em 2006 e desde então vem atuando como um agente de qualificação profissional na região Sudoeste do Paraná. Desde então, foram realizadas quinze edições somente na cidade de Dois Vizinhos e outras seis em outros municípios paranaenses, beneficiando mais de 1200 jovens.",
+    "text_card_conteudo2": "",
+    "text_card_conteudo3": "A Sudotec em parceria com a Prefeitura Municipal de Dois Vizinhos abriu inscrições para mais uma seletiva. A Capacitação acontecerá no município de Dois Vizinhos, com início no dia 03 de Março de 2023. Objetivo: Capacitar jovens com idade mínima de 16 anos na área de desenvolvimento de software.",
+    "buttonSubscribe": "Inscrições"
+  },
+  {
+    "text_card": ["", "", ""]
+  },
+  {
+    "videoURl1": "URL do Vídeo 1",
+    "videoURl2": "URL do Vídeo 2"
+  },
+  {
+    "imageUrls": [
+      "https://static.vecteezy.com/ti/fotos-gratis/t2/3343387-desktop-source-code-and-wallpaper-by-coding-and-programming-gratis-foto.jpg",
+      "https://static.vecteezy.com/ti/fotos-gratis/t2/3343387-desktop-source-code-and-wallpaper-by-coding-and-programming-gratis-foto.jpg",
+      "https://static.vecteezy.com/ti/fotos-gratis/t2/3343387-desktop-source-code-and-wallpaper-by-coding-and-programming-gratis-foto.jpg"
+    ]
+  },
+  {
+    "authorName": ["João da Silva"],
+    "authorAvatar": ["URL do Avatar"],
+    "comment": ["Este é o comentário de João."]
+  }
+]

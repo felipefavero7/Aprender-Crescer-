@@ -12,7 +12,7 @@ export type Videosprops = {
           return (
           <>
          
-         <div className="flex justify-center gap-20 mt-60 flex-wrap">
+         <div className="flex justify-center gap-20 mt-60 flex-wrap mt-20">
               <div className="flex justify-center items-center card video-frame">
                 <div className="border border-gray-300 rounded-lg overflow-hidden">
                   <iframe
