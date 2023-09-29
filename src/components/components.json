@@ -6,22 +6,43 @@
     "buttonSubscribe": "Inscrições"
   },
   {
-    "text_card": ["", "", ""]
+    "text_card1": "+25 Edicoes",
+    "text_card2": "+5 Cidades",
+    "text_card3": "+1300 Alunos"
   },
   {
-    "videoURl1": "URL do Vídeo 1",
-    "videoURl2": "URL do Vídeo 2"
+    "videoURL1": "https://www.youtube.com/embed/pBtdgB8AI8A?si=4L63j9qUv-Vjoa6f",
+    "videoURL2": "https://www.youtube.com/embed/XIWjTn88CRU?si=neUXL71bphAyDKrc",
+    "urlLOGO": "https://sudotec.org.br/imgs/logomarca.png"
   },
   {
     "imageUrls": [
+      "https://static.vecteezy.com/ti/fotos-gratis/t2/3343387-desktop-source-code-and-wallpaper-by-coding-and-programming-gratis-foto.jpg",
+      "https://static.vecteezy.com/ti/fotos-gratis/t2/3343387-desktop-source-code-and-wallpaper-by-coding-and-programming-gratis-foto.jpg",
+      "https://static.vecteezy.com/ti/fotos-gratis/t2/3343387-desktop-source-code-and-wallpaper-by-coding-and-programming-gratis-foto.jpg",
+      "https://static.vecteezy.com/ti/fotos-gratis/t2/3343387-desktop-source-code-and-wallpaper-by-coding-and-programming-gratis-foto.jpg",
       "https://static.vecteezy.com/ti/fotos-gratis/t2/3343387-desktop-source-code-and-wallpaper-by-coding-and-programming-gratis-foto.jpg",
       "https://static.vecteezy.com/ti/fotos-gratis/t2/3343387-desktop-source-code-and-wallpaper-by-coding-and-programming-gratis-foto.jpg",
       "https://static.vecteezy.com/ti/fotos-gratis/t2/3343387-desktop-source-code-and-wallpaper-by-coding-and-programming-gratis-foto.jpg"
     ]
   },
   {
-    "authorName": ["João da Silva"],
-    "authorAvatar": ["URL do Avatar"],
-    "comment": ["Este é o comentário de João."]
+    "comments": [
+      {
+        "name": "João da Silva",
+        "photo": "URL do Avatar 1",
+        "comment": "Este é o comentário de João 1."
+      },
+      {
+        "name": "Maria Oliveira",
+        "photo": "URL do Avatar 2",
+        "comment": "Este é o comentário de Maria 2."
+      },
+      {
+        "name": "Pedro Santos",
+        "photo": "URL do Avatar 3",
+        "comment": "Este é o comentário de Pedro 3."
+      }
+    ]
   }
 ]

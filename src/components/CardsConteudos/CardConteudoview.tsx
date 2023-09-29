@@ -1,8 +1,7 @@
-import cardsProps from './components.json';
-import CardConteudo from './cardConteudo';
+import cardsProps from '../components.json';
+import CardConteudo from './CardConteudo';
 
-const Cardview = () => {
-  // Suponha que você queira renderizar apenas o primeiro item de cardsProps
+const CardConteudoview = () => {
   const { text_card_conteudo1, text_card_conteudo2, text_card_conteudo3, buttonSubscribe } = cardsProps[0] || {};
 
   return (
@@ -19,4 +18,4 @@ const Cardview = () => {
   );
 };
 
-export default Cardview;
+export default CardConteudoview;

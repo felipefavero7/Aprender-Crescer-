@@ -1,7 +1,7 @@
-import { Carousel } from "flowbite-react";
+import { Carousel } from 'flowbite-react';
 
 export type CarouselProps = {
-  imageUrls: string[]; 
+  imageUrls: string[];
 };
 
 function Carousels({ imageUrls }: CarouselProps) {
